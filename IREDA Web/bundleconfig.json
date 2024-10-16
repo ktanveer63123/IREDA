@@ -1,0 +1,22 @@
+[
+  {
+    "outputFileName": "wwwroot/assets/css/website.min.css",
+    "inputFiles": [
+      //"wwwroot/assets/css/bootstrap.min.css",
+      "wwwroot/assets/css/style.css"
+
+    ],
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/assets/js/website.min.js",
+    "inputFiles": [
+      //"wwwroot/assets/js/bootstrap.bundle.min.js"
+    ],
+    "minify": {
+      "enabled": true
+    }
+  }
+]

@@ -1,0 +1,158 @@
+/* modal */
+.modal.master-modal .modal-header {
+  padding: 24px 16px;
+  border-bottom: none;
+  display: block;
+}
+.master-modal .modal-content {
+  max-width: 584px;
+}
+
+.modal .modal-footer {
+  border-top: none;
+  padding: 16px 16px 24px 16px;
+}
+.master-modal .modal-header .modal-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+  color: #0c4f14;
+  margin-bottom: 8px;
+}
+.master-modal .modal-header .modal-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  text-align: left;
+  color: #838383;
+}
+.master-modal .modal-body {
+  padding: 0 16px;
+}
+.master-modal .modal-body .master-body {
+  border: 1.5px dashed #838383;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 16px;
+}
+.master-modal .modal-body .file-name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.4px;
+  text-align: center;
+  color: #838383;
+}
+.master-modal .modal-body .file-name label {
+  color: #0c4f14;
+}
+.master-modal .modal-body .text-placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  text-align: center;
+  color: #838383;
+}
+.master-modal .modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.master-modal .modal-footer button {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.4px;
+  border-radius: 50px;
+  padding: 12.5px 24px;
+}
+.master-modal .modal-footer .cancel-button {
+  text-align: center;
+  color: #0c4f14;
+  border: 1px solid #0c4f14;
+
+  background-color: #ffffff;
+}
+.master-modal .modal-footer .submit-button {
+  text-align: center;
+  color: #83838380;
+  border: none;
+  background-color: #f2f2f2;
+}
+.master-modal .modal-footer .right-button {
+  display: flex;
+  gap: 24px;
+}
+.modal-footer .left-button .download {
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-footer .left-button .download img {
+  margin-right: 8px;
+}
+.modal-footer .left-button {
+  display: flex;
+  align-items: center;
+}
+.master-modal .modal-body .result-file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 17px 16px;
+  background-color: #dbe8da;
+  border-radius: 5px;
+}
+.master-modal .modal-body .result-file p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.4px;
+  text-align: left;
+  color: #0c4f14;
+}
+.success-modal .modal-dialog-centered {
+  justify-content: center !important;
+}
+
+.success-modal .modal-content {
+  max-width: 250px;
+  height: 250px;
+}
+.success-modal .modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+.success-modal .modal-body p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+  text-align: center;
+  color: #0c4f14;
+}
+/* checkbox */
+.form-switch .form-check-input {
+  width: 44px;
+  height: 23px;
+}
+.form-check-input:checked {
+  background-color: #0c4f14;
+  border-color: #0c4f14;
+}
+.form-check-input:focus {
+  box-shadow: none;
+}
+.form-check-input:focus {
+  background-image: none;
+}
+.form-check-input:focus {
+  border-color: grey;
+}
+.form-check-input:active {
+  filter: unset;
+}

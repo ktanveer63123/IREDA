@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<main class="content_box">
+    <div class="main_content_box">
+        <!-- table header starts here -->
+        <div class="content_filter table_header">
+            <div class="filter_search">
+                <img src="./assets/images/filter.svg" alt="search">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="left_filter">
+                <button class="button button_outline">
+                    <img src="/assets/images/download-list.svg" alt="download">
+                    Download List
+                </button>
+                <button class="button button_outline">
+                    <img src="/assets/images/filter-button.svg" alt="download">
+                    Filter
+                </button>
+                <button class="button primary_button" data-bs-toggle="modal" data-bs-target="#importMaster">
+                    <img src="/assets/images/add.svg" alt="download">
+                    Import Master
+                </button>
+            </div>
+        </div>
+        <!-- table starts here -->
+        <div class="table_section table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">S. No</th>
+                        <th scope="col">
+                            <div class="table_header_icon">
+                                Master Name
+                                <img src="./assets/images/up-arrow.svg" alt="up">
+                            </div>
+                        </th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">1</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_active">Active</button></td>
+                        <td>
+                            <a asp-area="" asp-controller="Department" asp-action="Index">
+                                <img src="./assets/images/eye.svg"
+                                     alt="eye">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_inactive">Inactive</button></td>
+                        <td><img src="./assets/images/eye.svg" alt="eye"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_active">Active</button></td>
+                        <td><img src="./assets/images/eye.svg" alt="eye"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_active">Active</button></td>
+                        <td><img src="./assets/images/eye.svg" alt="eye"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_active">Active</button></td>
+                        <td><img src="./assets/images/eye.svg" alt="eye"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_active">Active</button></td>
+                        <td><img src="./assets/images/eye.svg" alt="eye"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_active">Active</button></td>
+                        <td><img src="./assets/images/eye.svg" alt="eye"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Designation</td>
+                        <td><button class="status_button btn_active">Active</button></td>
+                        <td><img src="./assets/images/eye.svg" alt="eye"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</main>
